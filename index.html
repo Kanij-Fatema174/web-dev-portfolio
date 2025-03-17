@@ -3,17 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my devdeloper portfolio</title>
+    <title>My Developer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .projects .project {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .projects .project img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
-
+        <h1>My Developer Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-    <main>
 
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm [Your Name], a passionate web developer specializing in front-end and back-end development. I have experience with a variety of programming languages and technologies, and I love building projects that solve real-world problems.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1: Web Application</h3>
+                <img src="project1.jpg" alt="Project 1 Screenshot">
+                <p>This is a brief description of the project. It uses [technologies] and [feature].</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Mobile App</h3>
+                <img src="project2.jpg" alt="Project 2 Screenshot">
+                <p>This is a brief description of the project. It uses [technologies] and [feature].</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: API Development</h3>
+                <img src="project3.jpg" alt="Project 3 Screenshot">
+                <p>This is a brief description of the project. It uses [technologies] and [feature].</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you would like to work with me or have any questions, feel free to reach out!</p>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        </section>
     </main>
+
     <footer>
-        
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
     </footer>
 </body>
 </html>
+git checkout -b <branch_name>
